@@ -1,0 +1,13 @@
+CREATE DATABASE Bamazon;
+use Bamazon;
+
+CREATE TABLE Products (
+ItemId int AUTO_INCREMENT,
+ProductName varchar(30) NOT NULL,
+DepartmentName varchar(30) NOT NULL,
+Price int NOT NULL,
+StockQuantity int NOT NULL,
+PRIMARY KEY (ItemId)
+);
+
+INSERT INTO Products (ProductName, DepartName, Price, StockQuantity) VALUES ()
